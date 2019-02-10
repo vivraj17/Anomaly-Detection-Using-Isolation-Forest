@@ -16,6 +16,7 @@ Mathematical Calculations : Calculate.java
 
 Algorithms.java
 The important methods implementing the crucs of the algorithm are theoretically mentioned below:
+
                             iForest - Function takes input - data, number of trees and sub sampling size
                             and returns a list of trees. Each tree is created for a random sub sample size of input data.
                        
@@ -33,16 +34,17 @@ To run the code, Run the main method and give input as described above with each
 
 Sample Inputs:
 
-10                      // Top # of anomalies you want to detect
--1.222, 3.234, 3.222    // Data dimension can be unlimited but shoul be constant throughout
--4.232, 4.2332, 3.25    // Data Range should be in DOUBLE range defined by Java
-8.222, 6.2332, 6.27     // Can have huge set of data (1000000..) , gives best result with large data set.
--5.222, 2.2332, 3.522
-.
-.
-.
-.
+      10                      // Top # of anomalies you want to detect
+      -1.222, 3.234, 3.222    // Data dimension can be unlimited but shoul be constant throughout
+      -4.232, 4.2332, 3.25    // Data Range should be in DOUBLE range defined by Java
+      8.222, 6.2332, 6.27     // Can have huge set of data (1000000..) , gives best result with large data set.
+      -5.222, 2.2332, 3.522
+      .
+      .
+      .
+      .
 
 Output:
-Top K anomalies score and data points.
-Usually score above 75% can be considered as anomalies.
+
+        Top K anomalies score and data points.
+        Usually score above 75% can be considered as anomalies.
